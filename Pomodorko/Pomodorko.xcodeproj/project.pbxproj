@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		PK001001000000000001 /* PomodorkoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = PK002001000000000001 /* PomodorkoApp.swift */; };
+		PK001002000000000002 /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = PK002002000000000002 /* PopoverView.swift */; };
+		PK001003000000000003 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = PK002003000000000003 /* Timer.swift */; };
+		PK001004000000000004 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = PK002004000000000004 /* State.swift */; };
+		PK001005000000000005 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = PK002005000000000005 /* SoundPlayer.swift */; };
+		PK001007000000000007 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = PK002007000000000007 /* Logger.swift */; };
+		PK001008000000000008 /* Personality.swift in Sources */ = {isa = PBXBuildFile; fileRef = PK002008000000000008 /* Personality.swift */; };
+		PK00100D00000000000D /* CLI.swift in Sources */ = {isa = PBXBuildFile; fileRef = PK00200D00000000000D /* CLI.swift */; };
+		PK00100E00000000000E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = PK00200E00000000000E /* main.swift */; };
+		PK001009000000000009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = PK002009000000000009 /* Assets.xcassets */; };
+		PK00100A00000000000A /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = PK00300A00000000000A /* LaunchAtLogin */; };
+		PK00100B00000000000B /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = PK00300B00000000000B /* KeyboardShortcuts */; };
+		PK00100C00000000000C /* SwiftState in Frameworks */ = {isa = PBXBuildFile; productRef = PK00300C00000000000C /* SwiftState */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		PK002000000000000000 /* Pomodorko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pomodorko.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		PK002001000000000001 /* PomodorkoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodorkoApp.swift; sourceTree = "<group>"; };
+		PK002002000000000002 /* PopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
+		PK002003000000000003 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		PK002004000000000004 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		PK002005000000000005 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		PK002007000000000007 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		PK002008000000000008 /* Personality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personality.swift; sourceTree = "<group>"; };
+		PK002009000000000009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		PK00200A00000000000A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		PK00200B00000000000B /* Pomodorko.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pomodorko.entitlements; sourceTree = "<group>"; };
+		PK00200D00000000000D /* CLI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLI.swift; sourceTree = "<group>"; };
+		PK00200E00000000000E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		PK004001000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				PK00100A00000000000A /* LaunchAtLogin in Frameworks */,
+				PK00100B00000000000B /* KeyboardShortcuts in Frameworks */,
+				PK00100C00000000000C /* SwiftState in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		PK005000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				PK005001000000000001 /* Pomodorko */,
+				PK005002000000000002 /* Products */,
+				PK005003000000000003 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		PK005001000000000001 /* Pomodorko */ = {
+			isa = PBXGroup;
+			children = (
+				PK00200E00000000000E /* main.swift */,
+				PK002001000000000001 /* PomodorkoApp.swift */,
+				PK002002000000000002 /* PopoverView.swift */,
+				PK002003000000000003 /* Timer.swift */,
+				PK002004000000000004 /* State.swift */,
+				PK002005000000000005 /* SoundPlayer.swift */,
+				PK002007000000000007 /* Logger.swift */,
+				PK002008000000000008 /* Personality.swift */,
+				PK00200D00000000000D /* CLI.swift */,
+				PK002009000000000009 /* Assets.xcassets */,
+				PK00200A00000000000A /* Info.plist */,
+				PK00200B00000000000B /* Pomodorko.entitlements */,
+			);
+			path = Pomodorko;
+			sourceTree = "<group>";
+		};
+		PK005002000000000002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				PK002000000000000000 /* Pomodorko.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		PK005003000000000003 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		PK006000000000000000 /* Pomodorko */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = PK007002000000000002 /* Build configuration list for PBXNativeTarget "Pomodorko" */;
+			buildPhases = (
+				PK004000000000000000 /* Sources */,
+				PK004001000000000001 /* Frameworks */,
+				PK004002000000000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pomodorko;
+			packageProductDependencies = (
+				PK00300A00000000000A /* LaunchAtLogin */,
+				PK00300B00000000000B /* KeyboardShortcuts */,
+				PK00300C00000000000C /* SwiftState */,
+			);
+			productName = Pomodorko;
+			productReference = PK002000000000000000 /* Pomodorko.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		PK008000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					PK006000000000000000 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = PK007001000000000001 /* Build configuration list for PBXProject "Pomodorko" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = PK005000000000000000;
+			packageReferences = (
+				PK00900A00000000000A /* XCRemoteSwiftPackageReference "LaunchAtLogin" */,
+				PK00900B00000000000B /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */,
+				PK00900C00000000000C /* XCRemoteSwiftPackageReference "SwiftState" */,
+			);
+			productRefGroup = PK005002000000000002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				PK006000000000000000 /* Pomodorko */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		PK004002000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				PK001009000000000009 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		PK004000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				PK00100E00000000000E /* main.swift in Sources */,
+				PK001001000000000001 /* PomodorkoApp.swift in Sources */,
+				PK001002000000000002 /* PopoverView.swift in Sources */,
+				PK001003000000000003 /* Timer.swift in Sources */,
+				PK001004000000000004 /* State.swift in Sources */,
+				PK001005000000000005 /* SoundPlayer.swift in Sources */,
+				PK001007000000000007 /* Logger.swift in Sources */,
+				PK001008000000000008 /* Personality.swift in Sources */,
+				PK00100D00000000000D /* CLI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		PK00A001000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		PK00A002000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		PK00A003000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Pomodorko/Pomodorko.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pomodorko/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright 2025 TCB Media, LLC. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 6.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.curatedbrain.Pomodorko;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		PK00A004000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Pomodorko/Pomodorko.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pomodorko/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright 2025 TCB Media, LLC. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 6.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.curatedbrain.Pomodorko;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		PK007001000000000001 /* Build configuration list for PBXProject "Pomodorko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				PK00A001000000000001 /* Debug */,
+				PK00A002000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		PK007002000000000002 /* Build configuration list for PBXNativeTarget "Pomodorko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				PK00A003000000000003 /* Debug */,
+				PK00A004000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		PK00900A00000000000A /* XCRemoteSwiftPackageReference "LaunchAtLogin" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin-Modern";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		PK00900B00000000000B /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/KeyboardShortcuts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		PK00900C00000000000C /* XCRemoteSwiftPackageReference "SwiftState" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactKit/SwiftState";
+			requirement = {
+				branch = "swift/5.0";
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		PK00300A00000000000A /* LaunchAtLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = PK00900A00000000000A /* XCRemoteSwiftPackageReference "LaunchAtLogin" */;
+			productName = LaunchAtLogin;
+		};
+		PK00300B00000000000B /* KeyboardShortcuts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = PK00900B00000000000B /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */;
+			productName = KeyboardShortcuts;
+		};
+		PK00300C00000000000C /* SwiftState */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = PK00900C00000000000C /* XCRemoteSwiftPackageReference "SwiftState" */;
+			productName = SwiftState;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = PK008000000000000000 /* Project object */;
+}
